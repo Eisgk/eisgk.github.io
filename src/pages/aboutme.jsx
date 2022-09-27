@@ -48,7 +48,7 @@ const aboutme = () => {
     <Layout>
       <div className="flex flex-col ">
         <div>
-          <div className="flex flex-wrap justify-left place-content-center">
+          <div className="flex flex-wrap justify-left place-content">
             <div className="w-6/12 sm:w-4/12 px-4">
               <img
                 src={profile}
@@ -61,7 +61,7 @@ const aboutme = () => {
               </p> */}
             </div>
           </div>
-          <div>
+          <div className="-mt-20 ml-96">
             <span className=" content-center font-mono">
               <p className="font-bold text-lg underline">Education</p>
               <p>
